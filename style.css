@@ -1,0 +1,1052 @@
+@font-face
+{
+    font-family: 'robotoregular';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'roboto_condensedbold';
+    src: url('fonts/RobotoCondensed-Bold-webfont.eot');
+    src: url('fonts/RobotoCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RobotoCondensed-Bold-webfont.woff') format('woff'),
+         url('fonts/RobotoCondensed-Bold-webfont.ttf') format('truetype'),
+         url('fonts/RobotoCondensed-Bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, .projet, .agence_nom
+{
+    font-family: roboto_condensedbold;
+}
+
+body 
+{
+    margin:0;
+    padding: 0;
+  	font-family: robotoregular;
+    width:100%;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 1;
+}
+
+#logo
+{   
+    margin-left: 150px;
+}
+
+ nav.menu ul 
+{
+    display: flex; 
+    list-style-type: none;  
+    margin-right: 280px;
+}
+
+nav.menu li
+{
+    margin-right: 30px;
+}
+
+nav.menu a
+{
+    font-size: 1.1em;
+    color: #181818;  
+    text-decoration: none;
+}
+
+a:hover
+{
+    border-top: 2px solid #5cadd3; 
+    padding-top: 33px;
+}
+
+#banniere
+{ 
+    display: block;
+    width:100%;
+    height: 100%; 
+    position: relative;
+    margin-top: 90px;
+    bottom: 5px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 50%;
+    left: 10%;    
+}
+    
+.agence
+{
+    color:rgb(92,173,211); 
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+.slogan
+{
+    color: white; 
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+.projet
+{
+    color: white;
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+.devise
+{
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.agence_nom
+{
+    margin-bottom: -28px;
+}
+
+a.bouton
+{ 
+    display: block;
+    width: 100px;
+    text-align: center;  
+    border-top:0; 
+    background-color: rgb(92,173,211);
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgb(92,173,211);
+    margin-top: 25px;
+}
+
+.demi_cercle
+{
+    position: absolute;
+    background-color:rgba(0,0,0,0.3);
+    width:80px;
+    height:40px;
+    border-radius:50px 50px 0 0;
+    transform: rotate(90deg);
+    left: -20px;
+    top: 36%;  
+}
+
+.demi_cercle_1
+{
+    position: absolute;
+    background-color:rgba(0,0,0,0.3);
+    height: 40px;
+    width: 80px;
+    border-radius: 0 0 50px 50px;
+    transform: rotate(90deg);
+    right: -20px;
+    top: 36%;
+}
+ 
+ .angle_gauche
+ {
+     position: absolute;
+     color: white;
+     top: 36%;
+     left: 0.5%;
+ }
+
+ .angle_droit
+ {
+     position:absolute;
+     color:white;
+     top: 36%;
+     right: 0.5%;
+ }
+
+#bordure_bleu
+{
+    position: relative;
+    border-bottom: 3px solid rgb(92,173,211);
+    top: -8px;
+    width: 190px;
+}
+  
+#nos_services:before{
+    display:block;
+    content: "";
+    height: 94px;
+    margin-top: -94px;
+} 
+
+#Accueil:before{
+    display:block;
+    content: "";
+    height: 94px;
+    margin-top: -94px;
+} 
+
+#nos_realisations:before{
+    display:block;
+    content: "";
+    height: 94px;
+    margin-top: -94px;
+} 
+
+#contacts:before{
+    display:block;
+    content: "";
+    height: 94px;
+    margin-top: -94px;
+} 
+
+#titre
+{
+    text-align: center;
+}
+
+h1
+{
+    padding-top: 30px;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.point_bleu
+{
+    background:rgb(92,173,211);
+    border-radius:50%;
+    width:12px;
+    height:12px;
+    border:1px solid rgb(92,173,211); 
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: -40px;
+    border:6px solid white; 
+}
+
+.ligne_1
+{
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    height: 1pt;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    right: -42px;
+    bottom: 11px; 
+}
+
+.ligne_2
+{
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    height: 1pt;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 44px;
+    bottom: 12px;
+}
+
+.section_nos_services 
+{
+    display: flex;
+} 
+
+#image_1
+{
+    height: 316px;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+.nos_services
+{
+    margin-top: 70px;
+    margin-left: 140px;
+    margin-right: 130px;
+    text-align: justify;
+    width: 650px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.icon_1
+{
+    position: absolute;
+    color: #5CABD1; 
+    margin-left: -60px;
+    margin-top: 53px;
+}
+
+.cercle
+{
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    border:1px solid  #ccc;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 35px;
+}
+
+.point_bleu_1
+{
+    position: absolute;
+    background:rgb(92,173,211);  
+    border-radius:50%;
+    width:10px;
+    height:10px;
+    border:1px solid rgb(92,173,211); 
+    margin-left: -25px;
+    margin-top: 63px;
+}
+
+h2
+{ 
+    font-size: 1.2em;
+    padding-top: 25px;
+    margin-bottom: -10px; 
+}
+
+#nos_projets 
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#nos_realisations
+{
+    background-color: #f5f5f5;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+#filtre_du_portfolio ul 
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+#filtre_du_portfolio ul li a
+{
+    position: relative;
+    color: #64686d;
+    text-decoration: none;
+    background-color: #e5e5e5;
+    padding: 8px;
+
+}
+
+#filtre_du_portfolio li:nth-child(1) a
+{
+    border-radius: 5px 0px 0px 5px;
+}
+
+#filtre_du_portfolio li:nth-child(4) a
+{
+    border-radius: 0px 5px 5px 0px;
+}
+
+#filtre_du_portfolio ul li a:hover 
+ {
+    background-color:#5cadd3;
+    color: white;
+ }
+
+#filtre_du_portfolio ul li a:after
+{
+    content: "";
+    height:0px;
+    width:0px;
+    display: none;
+    position: absolute;
+    border-style: solid;
+    border-width: 7px 6px 0 6px;
+    border-color: #5CABD1  transparent transparent transparent;
+    top: 38px;
+    left: 35px;
+}
+
+#filtre_du_portfolio ul li a:hover:after 
+ {
+ 
+    display: block;
+ }
+
+.liste_du_projet
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.liste_du_projet img
+{
+   margin-left: -25px;
+}
+
+figure img
+{
+
+    position: relative;
+    width: 290px;
+    height: 190px;
+}
+
+figcaption
+{
+    position: absolute;
+    color: white;
+    background-color: rgba(24,24,24,0.6);
+    width: 290px;
+    height: 66px;
+    margin-top: -70px;
+    margin-left: -25px;
+    display: none;
+}
+
+figcaption .icon
+{
+  position:absolute;
+  margin-left:230px;
+  color:white;
+  background:rgb(92,173,211);
+  border-radius:50%;
+  padding:7px 9px;
+  border:2px solid white;
+  top:-18px;
+}
+
+figcaption h3
+{
+    margin-left: 10px;
+    margin-bottom: -14px; 
+    margin-top: 9px;
+}
+
+figcaption p
+{
+    margin-left: 10px;
+}
+
+figure:hover figcaption
+{ 
+    display: block;
+}
+
+.contact
+{
+    position: absolute;
+    margin-top: -690px;
+    margin-left: 1190px;
+    width: 330px;
+    padding: 5px 10px 5px 20px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.input
+{
+    width: 290px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.contact textarea
+{
+    width: 290px;
+    height: 120px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.contact input[type=submit]
+{
+    background-color: rgb(92,173,211);
+    border: 5px solid rgb(92,173,211);
+    border-radius: 3px ;
+    box-shadow: 1px 1px 1px rgb(92,173,211);
+    padding: 6px;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    color: white;
+}
+
+.info
+{
+    padding-top: 1px;
+    font-weight:bold;
+    font-size: 1.5em; 
+}
+
+.adresse
+{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+iframe
+{
+    pointer-events:none;
+    width:100%;
+    height:830px;
+}
+
+#carte
+{
+    position: relative;
+}
+
+#masque
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9,153,249,0.2);
+}
+
+@media all and (min-width:1281px)and (max-width:1576px)
+{
+
+  #banniere_description
+  {
+      bottom:55%;
+      left:
+  }
+
+  .demi_cercle, .demi_cercle_1, .angle_gauche, .angle_droit
+  {
+      top:32%;
+  }
+
+  .nos_services
+  {
+      margin-right:50px;
+      margin-left:110px;
+  }
+
+  #image_1
+  {
+      margin-left:50px;
+  }
+
+  .liste_du_projet
+  {
+      justify-content:center;
+      margin-right:10px;
+      margin-left:10px;
+  }
+
+  iframe
+  {
+      width:100%;
+      height:550px;
+  }
+
+  .contact
+  {
+      margin-top:20px;
+      margin-left:30px;
+  }
+
+  #formulaire_de_contact
+  {
+      margin-top:-140px;
+      margin-left:300px;
+  }
+
+  .contact textarea
+  {
+      margin-left:300px;
+      width: 290px;
+      height:80px;
+  }
+
+  .contact input[type=submit]
+  {
+      margin-top:20px;
+      margin-left:300px;
+  }
+}
+
+@media all and (max-width: 1280px) and (min-width: 960px)
+{
+  nav.menu ul 
+  {
+      margin-right: 80px;
+  }
+
+  #logo
+  {
+    margin-left: 70px;
+  }
+
+  #banniere_description
+  {
+      bottom:64%;
+      left: 7%;
+  } 
+
+  .agence, .slogan, .projet
+  {
+      font-size:2em;
+  }
+
+  .demi_cercle, .demi_cercle_1, .angle_gauche, .angle_droit
+  {
+      top:28%;
+  }
+
+  .demi_cercle, .demi_cercle_1
+  {
+      width:70px;
+      height:35px;
+  }
+
+  .demi_cercle
+  {
+      left:-17px;
+  }
+
+  .demi_cercle_1
+  {
+      right:-17px;
+  }
+
+  #image_1
+  {
+      height: 316px;
+      margin-top: 40px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .section_nos_services
+  {
+      display: block;
+  }
+
+  .liste_du_projet
+  {
+      justify-content:center;
+      margin-left:115px;
+      margin-right:115px;
+  }
+
+  iframe
+  {
+      width:100%;
+      height:550px;
+  }
+
+ .contact
+  {
+      margin-top:20px;
+      margin-left:30px;
+  }
+
+  #formulaire_de_contact
+  {
+      margin-top:-140px;
+      margin-left:300px;
+  }
+
+  .contact textarea
+  {
+      margin-left:300px;
+      width: 290px;
+      height:80px;
+  }
+
+  .contact input[type=submit]
+  {
+      margin-top:20px;
+      margin-left:300px;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 740px)
+{
+  header
+  {
+      display: flex;
+      flex-direction: column;
+  }
+
+  #logo
+  { 
+      margin-left: 0;
+      justify-content: center;
+  }
+
+  nav.menu ul
+  { 
+      margin-right: 0;
+      justify-content: center;
+  }
+    
+  #banniere
+  {
+      margin-top:225px;
+  }
+
+  #banniere_description
+  {
+      bottom: 55%;
+      left:5%
+  }
+
+  .agence, .projet, .slogan
+  {
+      font-size:1.4em;
+  }
+
+  .agence_nom
+  {
+      margin-bottom:-20px;
+  }
+
+  .demi_cercle, .demi_cercle_1, .angle_droit, .angle_gauche
+  {
+      top:37%;
+  }
+
+   .demi_cercle, .demi_cercle_1
+   {
+      width:60px;
+      height:30px;
+   }
+
+   .demi_cercle
+   {
+      left: -14px;
+   }
+
+   .demi_cercle_1
+   {
+      right: -14px;
+   }
+  
+   #logo
+   {
+      margin-left: 0;
+   }
+
+   a:hover
+   {
+      border-top: 0;
+   }
+
+   .bouton
+   { 
+      width: 80px;
+      height:20px;
+      font-size: 0.8em;
+      padding: 6px;
+      margin-top: 5px;
+   }
+
+  .devise
+  {
+      font-size: 0.7em;
+  }
+
+  h1
+  {
+      font-size:2em;
+      padding-bottom: 10px;
+  }
+
+  #image_1
+  {
+      height: 280px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .section_nos_services
+  {
+      display: block;
+  }
+
+  .liste_du_projet
+  {
+      justify-content: center;
+      margin-left:0px;
+      margin-right:0px;    
+  }
+
+   .nos_services
+  {
+      margin-left:90px;
+      margin-right:0;
+      width:600px;
+  }
+
+  iframe
+  {
+      width:100%;
+      height:400px;
+  }
+
+  .contact
+  {
+      margin-top:20px;
+      margin-left:30px;
+  }
+
+  #formulaire_de_contact
+  {
+      margin-top:-140px;
+      margin-left:300px;
+  }
+
+  .contact textarea
+  {
+      margin-left:300px;
+      width: 290px;
+      height:80px;
+  }
+
+  .contact input[type=submit]
+  {
+      margin-top:20px;
+      margin-left:300px;
+  }
+}
+
+@media all and (max-width: 739px)
+{ 
+  header
+  {
+      position:static;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #logo
+  {
+      margin-left: 0;
+      justify-content: center;
+  }
+
+  nav.menu ul
+  { 
+      margin-right: 0;
+      margin-left: 15px;
+  }
+
+  nav.menu li
+  {
+      margin-right: 15px;
+  }
+
+  a:hover
+  {
+      border-top: 0;
+  }
+ 
+  #banniere, #bordure_bleu, .demi_cercle, .demi_cercle_1, .angle_droit, .angle_gauche
+  {
+      display: none;
+  }
+
+  .agence
+  {
+      font-size:1.4em;
+  }
+
+  .projet, .slogan
+  {
+      color:rgb(92,173,211);
+      font-size:1.4em;
+  }
+
+  .devise
+  {
+      color:black;
+  }
+
+  .agence_nom
+  {
+      margin-bottom:0;
+      margin-bottom: -22px;
+  }
+
+  #banniere_description
+  {
+      bottom:0;
+      left:0;
+      text-align:center;
+      position:static;
+  }
+
+  a.bouton
+  {
+      display:inline;
+      padding:5px;
+  }
+
+  #titre
+  {
+      margin-top:-25px;
+  }
+
+  .service
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .projets
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  h1
+  {
+      font-size: 2em;
+      padding-bottom: 15px;
+  }
+
+  #image_1
+  {
+      display: none;
+  }
+    
+  .icon_1, .cercle, .point_bleu_1
+  {
+      display:none;
+  }
+
+  .nos_services
+  {
+      margin-top:0;
+      margin-left:15px;
+      margin-right:15px;
+      width: 500px;
+  }
+
+  .liste_du_projet
+  {
+      justify-content: center;
+      margin-left:0px;
+      margin-right:0px;
+  }
+
+  .liste_du_projet img
+  {
+      margin-left: 5px;
+  }
+
+  figcaption
+  {
+      margin-left: 5px;
+      width: 250px;
+  }
+
+  figcaption .icon
+  {
+    margin-left: 190px;
+  }
+
+  #filtre_du_portfolio ul li a 
+  {
+      font-size:0.8em;
+  }
+
+  figure img
+  {
+    width: 250px;
+    height:150px;
+  }
+
+  #filtre_du_portfolio ul li a:after
+  {
+      top: 34px;
+      left: 29px;
+  }
+
+  iframe
+  {
+      display: none;
+  }
+  
+  .contact
+  {
+      width: 250px;
+      margin-top:20px;
+      margin-left:20px;
+      margin-bottom: 30px;
+  }
+
+  .input, .contact textarea
+  {
+      width: 210px;
+  }
+ 
+  .contact textarea
+  {
+      height: 40px;
+  }
+
+  .contact input[type=submit]
+  {
+      padding: 4px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 0.7em;
+  }
+
+ .info
+  {
+      padding-top: 0;
+      font-size: 1em;
+  }
+
+  .adresse
+  {
+      font-size: 0.8em;
+  }
+}
+
+
